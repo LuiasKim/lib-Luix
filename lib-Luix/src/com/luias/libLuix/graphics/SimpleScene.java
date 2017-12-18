@@ -34,8 +34,6 @@ public abstract class SimpleScene extends Scene{
 		
 		camera.doEffect();
 		
-		
-		
 		Graphics2D graphic = (Graphics2D)buffers.getDrawGraphics();
 		graphic.clearRect(0, 0, Configurations.getInstance().width, Configurations.getInstance().height);
 		
